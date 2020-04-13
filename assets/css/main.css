@@ -2718,10 +2718,11 @@
 /* Header */
 
 	#header {
-		background-color: #000000;
-                background-image: url(images/h2.jpg); 
-                background-position: 100% 100%;
-                background-repeat: no-repeat;
+		-moz-transition: background-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out;
+		background-color: rgba(53, 56, 73, 0.95);
                 height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
