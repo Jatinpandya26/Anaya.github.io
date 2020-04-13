@@ -16,13 +16,7 @@
 		display: block;
 	}
 
-	.header-site {
-   background-color: #000000;
-   background-image: url(images/h2.jpg); 
-   background-position: 100% 100%;
-   background-repeat: no-repeat;
-}
-
+	
         body {
 		line-height: 1;
 	}
@@ -2739,7 +2733,16 @@
 		z-index: 10000;
 	}
 
-		#header h1 {
+#header-site {
+   background-color: #000000;
+   background-image: url(images/h2.jpg); 
+   background-position: 100% 100%;
+   background-repeat: no-repeat;
+}
+	
+
+
+#header h1 {
 			-moz-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			-webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			-ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
